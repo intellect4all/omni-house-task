@@ -1,0 +1,97 @@
+body {
+  background-color: #1c1a1b;
+  background-image: url("images/Home button icon.svg");
+  background-image: url("images/Home button icon (1).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55%;
+  background-blend-mode: difference;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  color: aliceblue;
+  display: flex;
+  margin: 30px 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.info-section {
+  border: 0.5px solid #eadae8;
+
+  margin: 60px 0;
+  padding: 20px;
+  border-radius: 10px;
+  word-wrap: normal;
+  align-items: baseline;
+}
+
+.info-section-title-1 {
+  color: #f9f3fa;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info-section-title-2 {
+  color: #f9f3fa;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.info-section-title {
+  color: #f9f3fa;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-section-content {
+  color: #c7bcc5;
+  font-size: 18px;
+}
+
+.info-inner-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-section {
+  width: 30%;
+}
+
+section {
+  padding: 0px 40px;
+}
+
+.third-section-inner {
+  width: 18%;
+  border: 0.5px solid #eadae8;
+  border-radius: 10px;
+  padding: 20px;
+  align-content: center;
+  
+}
+
+.label {
+  position: relative;
+  top: -40px;
+  color: #f9f3fa;
+  background-color: #1c1a1b;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.third-section-inner-img {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
